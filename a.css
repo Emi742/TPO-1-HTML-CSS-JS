@@ -18,8 +18,8 @@ header .logo img {
     max-height: 50px;
 }
 
-header .botoninicio button {
-    background-color: #4CAF50;
+header .buttoninicio button {
+    background-color: #851511;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -27,9 +27,12 @@ header .botoninicio button {
     cursor: pointer;
     border-radius: 5px;
 }
-
-header .botoninicio button:hover {
-    background-color: #45a049;
+.title {
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    margin: 0;
 }
 
 nav ul {
@@ -71,7 +74,9 @@ section {
 }
 
 .game {
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
+    box-shadow: 4px 2px 25px black;
+    text-shadow: #666;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -110,7 +115,7 @@ section {
 }
 
 .game button {
-    background-color: #4CAF50;
+    background-color: #851511;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -118,9 +123,6 @@ section {
     border-radius: 5px;
 }
 
-.game button:hover {
-    background-color: #45a049;
-}
 
 footer {
     background-color: #333;
