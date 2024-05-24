@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+header .botoninicio button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .botoninicio button:hover {
+    background-color: #45a049;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #444;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+}
+
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    /* min-width: 230px;
+    min-height: 410px; */
+}
+
+
+.game img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* min-width: 200px;
+    min-height: 250px;
+    max-height: 250px;
+    max-width: 200px; */
+}
+
+
+
+
+.game h3 {
+    margin: 0 0 10px;
+}
+.game h2 {
+    margin: 0 0 10px;
+}
+
+.game p {
+    margin: 0 0 10px;
+}
+
+.game button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.game button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    header, main, footer {
+        padding: 1px;
+        margin: 1px;
+        font-size: 7px; 
+    }
+    h1 {
+        font-size: 10px; 
+    }
+    h2 {
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 7px; 
+    }
+
+    .game img {
+        width: 40%;
+        height: 40%;
+    }
+    .game {
+        h3 {
+            font-size: 10px
+        }
+        width: auto;
+        height: auto; 
+        padding: auto;
+        margin: auto;
+    }
+    nav {
+        display: none; 
+    }
+    .game button {
+        padding: 3px 7px;
+    }
+    header .botoninicio button {
+        width: 50%; 
+        padding: 3px 7px;
+        margin-left: 10px;
+    }
+}
